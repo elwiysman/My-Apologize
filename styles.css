@@ -995,3 +995,19 @@ html {
     gap: 10px;
   }
 }
+*:focus,
+*:active,
+button:focus,
+button:active,
+a:focus,
+a:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active,
+select:focus,
+select:active {
+  outline: none !important; /* Menghilangkan outline bawaan browser */
+  box-shadow: none !important; /* Menghilangkan box-shadow bawaan (jika ada) */
+  -webkit-tap-highlight-color: transparent; /* Untuk menghilangkan highlight tap di browser mobile Safari/Chrome */
+}
