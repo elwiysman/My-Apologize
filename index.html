@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untuk Sayaangkuu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="landing" class="section landing">
+      <div class="container">
+        <div class="landing-content">
+          <h1 class="main-title fade-in">Halaaw Sayaangkuu 💕</h1>
+          <div class="heart-animation slide-in-up">❤️</div>
+          <p class="intro-text fade-in-delay-1">
+            Aku minta waktunya sebentar yaa byyy.
+          </p>
+          <a href="#" id="scrollToMaaf" class="cta-button fade-in-delay-2"
+            >Lanjut dongss 💌</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Maaf Section -->
+    <section id="maaf" class="section maaf-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Sayaang, aku minta maaf byy😭🙏</h2>
+        <div class="maaf-content">
+          <div class="maaf-paragraph slide-in-left">
+            Aku minta maaf byy. Belakangan ini mungkin aku sering ngambek dan
+            salahnya aku malah menutup diri. Tanpa aku sadari, kamu syuda cape
+            banget jalanin hari-hari kamu.
+          </div>
+          <div class="maaf-paragraph slide-in-right">
+            Maafin aku yaa sayaangkuu. Bisa dibilang aku juga malah jadi egois
+            malah ga perhatiin cape nya kamu juga kalau begitu. I'm really sorry
+            babe.
+          </div>
+          <div class="sorry-decoration fade-in-up">
+            <span class="sorry-emoji">😔</span>
+            <span class="sorry-emoji">💔</span>
+            <span class="sorry-emoji">🥺</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Our Good Old Days 📸</h2>
+        <p class="gallery-subtitle slide-in-up">
+          Kalau ada pikiran negatif untuk pisah, coba liat foto ini decc byyy.
+        </p>
+        <div class="gallery-grid">
+          <div
+            class="photo-card fade-in-up"
+            data-delay="0"
+            onclick="openModal('kenangan1.jpg', 'Momen pertama kita ngopi bareng nicc. mwehwehe')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan1.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 1"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>Ngopi</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="150"
+            onclick="openModal('kenangan2.jpg', 'Anzaayy, ini pas kita gii rayain ultah bareng kan sayaang dipuncak. XIXIXI!!')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan2.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 2"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>Our Birthday!!🥳🎉</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="300"
+            onclick="openModal('kenangan3.jpg', 'Seruu kali bahh ditemenin ayang aku daftar kulyah. walaupun gabole beli kopi dulu tuu disituu:(')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan3.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 3"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>Ke UNPAM tercintahh</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="450"
+            onclick="openModal('kenangan4.jpg', 'Beuhh. Cantik syekalii lacc kamu disini😍. Gabisa banyak bicaradecc aku liat kamuu saat ituu.')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan4.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 4"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>WISYUDAAA</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="600"
+            onclick="openModal('kenangan5.jpg', 'KITA NGERAYAINN 1 TAHUN KITA AS 2L!! Coba inget inget, kita gii ngapain ituuu?🫣')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan5.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 5"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>1 TAHUNN DONGSSSS❤‍🔥</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="750"
+            onclick="openModal('kenangan8.jpg', 'Pertama kalinya kamu bakal jauh nicc. Tapi gapapa lacc, aku masi bisa anterin kamu sambil nunggu waktu kita main selanjutnyaa. Eheheee')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan8.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 8"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>Mau ditinggal kerja😭😭</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="900"
+            onclick="openModal('kenangan6.jpg', 'Tebak siapaa yang abis maraah niii???😱😱')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan6.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 6"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>No Comment akk🫢🫢</p>
+            </div>
+          </div>
+          <div
+            class="photo-card fade-in-up"
+            data-delay="1050"
+            onclick="openModal('kenangan7.jpg', 'Siapa yang alesan rame di putewa, tapi gii rayain ultah sama pacarnyaa niii????')"
+          >
+            <div class="photo-container">
+              <img
+                src="kenangan7.jpg"
+                class="gallery-photo"
+                alt="Kenangan Spesial 7"
+              />
+              <div class="photo-overlay">
+                <span class="view-text">Lihat Kenangan</span>
+              </div>
+            </div>
+            <div class="photo-caption">
+              <p>My Princess B'day💖💖</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="penutup" class="section penutup-section">
+      <div class="container">
+        <div class="penutup-content">
+          <h2 class="final-title fade-in">For the Love of My Life 💓</h2>
+          <div class="final-message slide-in-up">
+            <p>
+              In the end, aku minta maaf yaa sayaang. akuu minta maaf kamu jadi
+              sering hadepin ngambeknya aku yang kalau dipikir-pikir juga
+              kayanya ga perlu juga gitu byy. Maafin aku yaa sayaang. Jangan ada
+              "perpisahan" diantara kita yacc byy. Tolong ingat lagi apa ajaa
+              suka dan duka yang syuda kita lalui selama ini byyy. Semoga dengan
+              adanya ini, kamu berkenan maafin aku yaa sayaang. Kita baikan
+              lagii yacc sayaangg. Would u?
+            </p>
+          </div>
+          <button id="forgiveButton" class="cta-button">Aku Maafin</button>
+
+          <div class="final-decoration fade-in-up">
+            <span class="final-emoji">🌹</span>
+            <span class="final-emoji">💕</span>
+            <span class="final-emoji">🌹</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="thankYouSection"
+      class="section thank-you-section"
+      style="display: none"
+    >
+      <div class="container" style="text-align: center">
+        <h2 class="section-title">YEAAYY!! TERIMAAKACII CANTIKKUU💕</h2>
+        <p>LAAFFYUUU BUBBB💖💖💖</p>
+
+        <div
+          id="tenorGifContainer"
+          class="tenor-gif-embed"
+          data-postid="12629573953728339553"
+          data-share-method="host"
+          data-aspect-ratio="1"
+          data-width="100%"
+        >
+          <a
+            href="https://tenor.com/view/sseeyall-bubu-dudu-gif-12629573953728339553"
+            >Sseeyall Bubu Dudu Sticker</a
+          >from
+          <a href="https://tenor.com/search/sseeyall-stickers"
+            >Sseeyall Stickers</a
+          >
+        </div>
+        <script
+          type="text/javascript"
+          async
+          src="https://tenor.com/embed.js"
+        ></script>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="photoModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="Photo" />
+        <div id="modalCaption"></div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
